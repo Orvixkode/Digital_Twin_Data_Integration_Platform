@@ -1,0 +1,50 @@
+{
+  "name": "digital-twin-frontend",
+  "version": "1.0.0",
+  "description": "React-based monitoring interface for Digital Twin Data Integration Platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "react-scripts start"
+  },
+  "keywords": ["digital-twin", "industrial-iot", "monitoring", "react"],
+  "author": "Digital Twin Platform",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.8.0",
+    "axios": "^1.6.2",
+    "recharts": "^2.8.0",
+    "antd": "^5.12.8",
+    "@ant-design/icons": "^5.2.6",
+    "socket.io-client": "^4.7.4",
+    "moment": "^2.29.4",
+    "lodash": "^4.17.21",
+    "styled-components": "^6.1.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@types/node": "^20.10.5",
+    "@types/lodash": "^4.14.202",
+    "typescript": "^5.3.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8000"
+}
